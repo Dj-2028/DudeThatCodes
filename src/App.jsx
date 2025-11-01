@@ -1,13 +1,19 @@
 
 import Home from '../Pages/Home'
+import MobileSection from '../Components/MobileSection'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <Home/>
+      <div className='bg-[#00111F] pt-[2.5vh]'>
 
+        {/* <Home /> */}
+        {/* <chatbot /> */}
+        <MobileSection />
+
+      </div>
 
     </>
   )
