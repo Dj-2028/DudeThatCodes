@@ -4,6 +4,7 @@ import MobileSection from '../Components/MobileSection'
 import Solutions from '../Components/Solutions'
 import HeroSection from '../Components/HeroSection'
 import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
 
 const Home = () => {
 
@@ -15,10 +16,12 @@ const Home = () => {
         <Navbar />
         <HeroSection />
         <MobileSection />
-        <div className='p-20' >
 
+        <div className='p-20' >
           <Solutions />
         </div>
+
+        <Footer />
 
       </div>
     </>
