@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function SocialMediaHero() {
+export default function MobileSection() {
     return (
         <div className="h-[65vh] w-[75vw] mt-[12vh] mx-auto bg-gradient-to-b from-[#88C7F9] to-[#268CDF] rounded-[20px] border border-[#619FEF52] relative overflow-hidden">
             {/* Mobile Section */}
@@ -35,8 +35,9 @@ export default function SocialMediaHero() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                             </svg>
                         </div>
-                        <h3 className="font-semibold text-lg mb-2">Smart Scheduling</h3>
-                        <p className="text-sm text-gray-600 text-center">Automate your posts across all platforms</p>
+                        <h3 className="font-semibold text-lg mb-2">Pro-Active Real-Time Task Analysis</h3>
+                        <p className="text-sm text-gray-600 text-center">AI Mate continuously monitors your conversations to identify actionable insights in real time.
+                        </p>
                     </div>
 
                     {/* Box 2 */}
@@ -46,8 +47,9 @@ export default function SocialMediaHero() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                             </svg>
                         </div>
-                        <h3 className="font-semibold text-lg mb-2">Analytics</h3>
-                        <p className="text-sm text-gray-600 text-center">Track performance and engagement</p>
+                        <h3 className="font-semibold text-lg mb-2">Adaptive Memory Compression (AMC)</h3>
+                        <p className="text-sm text-gray-600 text-center">Using advanced neural memory compression, AI Mate retains the essence of past interactions without redundant data.
+                        </p>
                     </div>
 
                     {/* Box 3 */}
@@ -57,8 +59,9 @@ export default function SocialMediaHero() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
                             </svg>
                         </div>
-                        <h3 className="font-semibold text-lg mb-2">Engagement</h3>
-                        <p className="text-sm text-gray-600 text-center">Respond to comments instantly</p>
+                        <h3 className="font-semibold text-lg mb-2">Human-Like Assistant with Persistent Recall
+                        </h3>
+                        <p className="text-sm text-gray-600 text-center">AI Mate functions as your intelligent partner that remembers every detail-from past tasks to personal notes. </p>
                     </div>
                 </div>
             </div>

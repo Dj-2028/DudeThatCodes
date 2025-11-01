@@ -1,23 +1,20 @@
 import React from 'react'
 import { useState } from 'react'
+import MobileSection from '../Components/MobileSection'
+import Solutions from '../Components/Solutions'
+import HeroSection from '../Components/HeroSection'
 
 const Home = () => {
 
-const [message, setMessage] = useState()
 
   return (
     <>
+      <div className='bg-[#00111F] pt-[2.5vh]'>
+        <HeroSection />
+        <MobileSection />
+        <div className='p-20' >
 
-      <div className=''>
-        <div>
-
-          <div className='relative bg-red-400 h-12 w-[90%] rounded-3xl'></div>
-          <label htmlFor="">
-            <input
-            
-            type="text"
-            />
-          </label>
+          <Solutions />
         </div>
 
       </div>
