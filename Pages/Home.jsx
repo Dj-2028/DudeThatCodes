@@ -3,13 +3,15 @@ import { useState } from 'react'
 import MobileSection from '../Components/MobileSection'
 import Solutions from '../Components/Solutions'
 import HeroSection from '../Components/HeroSection'
+import Navbar from '../Components/Navbar'
 
 const Home = () => {
 
 
   return (
     <>
-      <div className='bg-[#00111F] pt-[2.5vh]'>
+      <div className='bg-[#00111F]'>
+        <Navbar />
         <HeroSection />
         <MobileSection />
         <div className='p-20' >
