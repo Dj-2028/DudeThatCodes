@@ -18,25 +18,25 @@ export default function Solutions() {
             icon: Timer,
             title: " Lost Track of Time",
             description: "Tracks where your hours go and shows insights on what tasks you’ve spent the most time on to boost productivity.",
-            color: "bg-blue-400"
+            color: "bg-purple-400"
         },
         {
             icon: Infinity,
             title: "Endless Coordination",
             description: "Automates meeting coordination, reminders, and reschedules — so you never waste time managing calendars manually.",
-            color: "bg-blue-400"
+            color: "bg-purple-400"
         },
         {
             icon: Notebook,
             title: "Reactive Planning",
             description: "Goes beyond static calendars by proactively suggesting focus blocks, rest periods, and task priorities based on your routine..",
-            color: "bg-blue-400"
+            color: "bg-purple-400"
         },
         {
             icon: Omega,
             title: "Overload Prediction Engine",
             description: "Uses data on meetings, deadlines, and work hours to predict upcoming workload spikes and notify users before burnout.",
-            color: "bg-blue-400"
+            color: "bg-purple-400"
         }
     ]
     return (
@@ -61,10 +61,7 @@ export default function Solutions() {
                             {service.description}
                         </p>
 
-                        {/* Arrow Button */}
-                        <button className="w-10 h-10 bg-slate-700/50 hover:bg-purple-600 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:scale-110">
-                            <ArrowRight className="w-5 h-5 text-white" />
-                        </button>
+
 
                         {/* Hover Glow Effect */}
                         <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-purple-500/0 to-blue-500/0 group-hover:from-purple-500/5 group-hover:to-blue-500/5 transition-all duration-300 pointer-events-none" />
